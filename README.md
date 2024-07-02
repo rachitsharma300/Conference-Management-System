@@ -2,7 +2,7 @@
 Technologies - Html, Css, JavaScript, Php, Sql
 
  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                                                                                                     
-                          <h1><--- FLOW DIAGRAM FOR CONFERENCE MANAGEMENT SYSTEM ---> </h>                                                                                    
+                          <--- FLOW DIAGRAM FOR CONFERENCE MANAGEMENT SYSTEM --->                                                                                  
  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
