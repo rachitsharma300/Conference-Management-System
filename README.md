@@ -22,10 +22,9 @@ This is a web application for managing conferences, where users can register for
 2. [Git](https://git-scm.com/) for version control
 3. [Composer](https://getcomposer.org/) for dependency management
 
-## Setup Instructions
 
-### 1. Clone the Repository
 # File Structure
+<pre>
 conference-management-system/
 │
 ├── admin
@@ -40,7 +39,7 @@ conference-management-system/
 ├── get_conferences.php
 └── db.php
 └── styles.css
-
+</pre>
 
 <pre>
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                    
@@ -122,7 +121,9 @@ conference-management-system/
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 </pre>
 
+## Setup Instructions
 
+### 1. Clone the Repository
 ```sh
 git clone https://github.com/yourusername/conference-management-system.git
 cd conference-management-system
