@@ -1,5 +1,5 @@
 # Conference Management System
-#Technologies - HTML, CSS, JavaScript, PHP, SQL
+# Technologies - HTML, CSS, JavaScript, PHP, SQL
 <pre>
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                    
 ||                           <--- FLOW DIAGRAM FOR CONFERENCE MANAGEMENT SYSTEM ---><                      ||                                                                                    
