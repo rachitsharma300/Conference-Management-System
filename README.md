@@ -1,8 +1,8 @@
-# <h1>Conference Management System</h1>
-# <p>Technologies - HTML, CSS, JavaScript, PHP, SQL</P>
+# <h1 style="color: #3498db;">Conference Management System</h1>
+<p style="color: #2ecc71;">Technologies - HTML, CSS, JavaScript, PHP, SQL</p>
 <pre>
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                    
-||                      <h1> <--- FLOW DIAGRAM FOR CONFERENCE MANAGEMENT SYSTEM ---></h1>                  ||                                                                                    
+||                           <--- FLOW DIAGRAM FOR CONFERENCE MANAGEMENT SYSTEM ---><                      ||                                                                                    
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
