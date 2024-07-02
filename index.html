@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-content">Conference Management System</h1>
+            <!-- <div class="clock"></div>  -->
+            <ul class="nav-links">
+                <li><a href="admin/admin.php" target="_blank">Admin Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Welcome to Conference Management System</h1>
+    <div class="container">
+        <h1>Register User</h1>
+        <form id="registrationForm" action="register.php" method="post">
+            <div class="form-group">
+                <input type="text" name="username" placeholder="👤Username" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="✉️Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="🔑Password" required>
+            </div>
+            <div class="form-group">
+                
+                <!-- <button type="submit">Register</button> -->
+                <button type="submit" class="submit-btn">Register</button>
+
+            </div>
+            <div class="error-message"></div>
+            <div class="success-message"></div>
+        </form>
+        
+        <h1>Submit Feedback</h1>
+        <form id="feedbackForm" action="submit_feedback.php" method="post">
+            <input type="hidden" name="user_id" value="1">
+            <div class="form-group">
+                <select name="conference_id">
+                    <option value="" disabled selected>Select Conference</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea name="comments" placeholder="Your feedback" required></textarea>
+            </div>
+            <div class="form-group">
+                <!-- <button type="submit">Submit</button> -->
+                <button type="submit" class="submit-btn">Submit</button>
+
+            </div>
+        </form>
+    </div>
+
+
+    <div class="schedule-container">
+        <h1>Conference Schedule</h1>
+        <div id="schedule" class="schedule"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

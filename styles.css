@@ -1,0 +1,286 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: #444;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-container h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+.container {
+  position: absolute;
+  top: 133px;  
+  left: 120px;  
+  width: 550px;
+  max-height: 520px; 
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+.nav-content{
+  color: white;
+  display: inline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  border-color: #333;
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-group button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.error-message, .success-message {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+}
+
+/* Schedule Container */
+.schedule-container {
+  position: absolute;
+  top: 153px;  
+  right: 120px;  
+  width: 550px;
+  max-height: 520px; 
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#schedule {
+  max-height: 420px;
+  overflow-y: auto; 
+}
+
+.schedule-container h2 {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  padding: 10px 0;
+}
+
+.schedule {
+  padding: 10px;
+}
+
+.schedule .conference-session {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule .conference-session:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.schedule .conference-session h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.schedule .conference-session p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+/* -----------------------ADMIN---------------------- */
+.admin-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centering the text */
+  animation: fadeIn 1s ease-in-out;
+}
+
+.conference-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centering the text */
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Conference CSS */
+.actions-button {
+  background-color: #333; 
+  color: white; 
+  padding: 10px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.actions-button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+
+
+/* for Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+
+.clock {
+  font-size: 1.2rem; 
+  color: #fff; 
+  margin-left: 856px;
+}
+
+.count-container {
+  position: absolute;
+  left: 10px;
+  top: 154px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 330px;
+}
+
+.count-container h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
